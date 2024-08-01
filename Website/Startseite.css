@@ -1,4 +1,39 @@
-.header{
-    display: flex;
-    height:40px
+:root{
+    /*-----Lightmode farben-----*/
+    --HeaderBackgroundL: gray;
+    --BodyBackgroundL: white;
+    --DropdownColorL: blue;
+}
+
+
+body{
+    margin:0;
+}
+
+.logo{
+    padding-top:6px;
+    height:20vh;
+}
+#logo{
+    width:20vw;
+}
+
+#headertable{
+    background-color: gray;
+    flex-flow: column nowrap;
+    border: 1px solid black;
+    height:20vh;
+    width:100vw;
+    padding-right:5vw;
+    padding-left:5vw
+
+}
+
+th.header-inhalt{
+    border: 1px solid black;
+    width:10vw;  
+}
+
+#SpacerPC{
+    width:60vw;
 }
