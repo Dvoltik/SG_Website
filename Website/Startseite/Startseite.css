@@ -1,30 +1,32 @@
 :root{
     /*-----Lightmode farben-----*/
     --HeaderBackgroundL: gray;
-    --BodyBackgroundL: white;
+    --BodyBackgroundL: aqua;
     --DropdownColorL: blue;
+    --headerHeight: 10vh;
 }
 
 
 body{
     margin:0;
 }
+
 /*-----Header-----*/
+
 .header{
     top:0;
     position: fixed;
 }
 
 .logo{    
-    height:15vh;
+    height:var(--headerHeight);
 }
 
 
 #headertable{
-    background-color: gray;
+    background-color: var(--HeaderBackgroundL);
     flex-flow: column nowrap;
-    /*border: 1px solid black;*/
-    height:20vh;
+    height:var(--headerHeight);
     width:100vw;
     padding-right:5vw;
     padding-left:5vw
@@ -33,21 +35,49 @@ body{
 
 th.header-inhalt{
     border: 1px solid black;
-    width:10vw;  
+    width: 10vw;  
 }
 
 #SpacerPC{
     width:60vw;
 }
+
+.button{
+    display: flex;
+    justify-content:center;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+  }
+
+#bttnMannschaft{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#bttnVereine{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#bttnJugend{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
 /*-----Header-----*/
 
 /*-----Content-----*/
 .body{
-    margin-top: 20vh;
+    margin-top: var(--headerHeight);
 }
 .content{
     padding-top: 2vh;
-    background-color: aqua;
+    background-color: var(--BodyBackgroundL);
     width: 70vw;
     height: 100%;
     margin-left: 15vw;
@@ -86,6 +116,7 @@ th.header-inhalt{
 
 /*-----Footer-----*/
 .footer{
+    background-color: var(--HeaderBackgroundL);
     height: 5vh;
 }
 /*-----Footer-----*/
