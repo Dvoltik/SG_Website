@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Startseite.css" /> 
+    <script src="Startseite.js"></script> 
     <title>Startseite SG Sinsheim/Helmstadt</title>
 </head>
 <body>
@@ -17,38 +18,42 @@
                     <p>      </p>
                 </th>
                 <th class="header-inhalt">
-                    <div class="button" onclick="dropdwn()"><p>Starteiste</p></div>
+                    <div class="button"><p>Starteiste</p></div>
                 </th>
                 <th class="header-inhalt">
-                    <div class="button" onclick="dropdwn()"><p>Aktuelles</i></p>
+                    <div class="button"><p>Aktuelles</i></p>
                         <div class="dropdown-content">
                             <a href="#"></a>
                         </div>
                     </div>
                 </th>
                 <th class="header-inhalt">
-                    <div class="button" onclick="dropdwn()"><p>Mannschaften <i class="arrow right" id="bttnMannschaft"></i></p></div>
+                    <div class="button"><a href="..\Mannschaften\Mannschaften.html"><p>Mannschaften <i class="arrow right"></i></p></a>
+                        <div class="dropdown-content">
+                            <a href="#">Herren 1</a>
+                            <a href="#">Herren 2</a>
+                            <a href="#">Herren 3</a>
+                        </div>
+                    </div>
+                </th>
+                <th class="header-inhalt">
+                    <div class="button"><p>Jugend <i class="arrow right"></i></p>
+                        <div class="dropdown-content">
+                            <a href="#">U20</a>
+                            <a href="#">U16</a>
+                            <a href="#">U14</a>
+                        </div>
+                    </div>
+                </th>
+                <th class="header-inhalt">
+                    <div class="button"><p>Sponsoren</p>
                         <div class="dropdown-content">
                             <a href="#"></a>
                         </div>
                     </div>
                 </th>
                 <th class="header-inhalt">
-                    <div class="button" onclick="dropdwn()"><p>Jugend <i class="arrow right" id="bttnJugend"></i></p>
-                        <div class="dropdown-content">
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </th>
-                <th class="header-inhalt">
-                    <div class="button" onclick="dropdwn()"><p>Sponsoren</p>
-                        <div class="dropdown-content">
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </th>
-                <th class="header-inhalt">
-                    <div class="button" onclick="dropdwn()"><p>Vereine <i class="arrow right" id="bttnVereine"></i></p>
+                    <div class="button" onclick="dropdwn()"><p>Vereine <i class="arrow right"></i></p>
                         <div class="dropdown-content">
                             <a href="#"></a>
                         </div>
@@ -58,8 +63,38 @@
     </div>
     <div class="body">
         <div class="content">
-            <div class="news">
+            <div class="news" onmouseenter="hoverNews()" onmouseleave="exitNews()">
+                <div id="News1">
+                    <div id="bgEffekt"></div>
+                    <div class="title">
+                        SG Herren 2 gewinnt
+                        <p class="description">Die zweite Herrenmannschaft der SG Sinsheim/Helmstadt gewinnt 3:1 in ...</p>
+                    </div>
+                </div>
+                <div id="News2">
+                    <div id="bgEffekt"></div>
+                    <div class="title">
+                        SG gewinnt2
+                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
+                    </div>
+                </div>
+                <div id="News3">
+                    <div id="bgEffekt"></div>
+                    <div class="title">
+                        SG gewinnt3
+                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
+                    </div>
+                </div>
+                <div id="News4">
+                    <div id="bgEffekt"></div>
+                    <div class="title">
+                        SG gewinnt4
+                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
+                    </div>
+                </div>
+                <div class="prev"onclick="prevSlide()">❮</div>
 
+                <div class="next"onclick="nextSlide()">❯</div>
 
             </div>
             <div class="upcomming">
