@@ -43,24 +43,18 @@ function pauseTimer(){
 function nextSlide(){
     n = 1;
     console.log("next");
-    console.log(slides);
-    plusSlides(n);
-    return n;
-    
+    plusSlides(n);    
 }
 
 function prevSlide(){
     n = -1;
     console.log("prev");
-    plusSlides(n);
-    //return n;
-    
+    plusSlides(n);   
 }
 
 function plusSlides(n){
 
     checkSlide();
-    console.log(i);
 
     slides = document.getElementById('News' + i);
     slides.style.display = "none";
@@ -70,8 +64,8 @@ function plusSlides(n){
     slides = document.getElementById('News' + i);
     slides.style.display = "block";
     
-   
-    startTimer();
+    clearTimer(timerNextSlide);
+    startTimer(timerNextSlide);
     return i;
 }
 

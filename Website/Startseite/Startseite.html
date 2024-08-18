@@ -18,44 +18,44 @@
                     <p>      </p>
                 </th>
                 <th class="header-inhalt">
-                    <div class="button"><p>Starteiste</p></div>
+                    <div class="button"><a href="Startseite.html"><p id="headerText">Starteiste</p></a></div>
                 </th>
                 <th class="header-inhalt">
-                    <div class="button"><p>Aktuelles</i></p>
+                    <div class="button"><p id="headerText">Aktuelles</i></p>
+                        <div class="dropdown-content">
+                        </div>
+                    </div>
+                </th>
+                <th class="header-inhalt">
+                    <div class="button"><a href="..\Mannschaften\Mannschaften.html"><p id="headerText">Mannschaften <i class="arrow right"></i></p></a>
+                        <div class="dropdown-content">
+                            <a href="#" id="headerText">Herren 1</a>
+                            <a href="#" id="headerText">Herren 2</a>
+                            <a href="#" id="headerText">Herren 3</a>
+                        </div>
+                    </div>
+                </th>
+                <th class="header-inhalt">
+                    <div class="button"><p id="headerText">Jugend <i class="arrow right"></i></p>
+                        <div class="dropdown-content">
+                            <a href="#" id="headerText">U20</a>
+                            <a href="#" id="headerText">U16</a>
+                            <a href="#" id="headerText">U14</a>
+                        </div>
+                    </div>
+                </th>
+                <th class="header-inhalt">
+                    <div class="button"><p id="headerText">Sponsoren</p>
                         <div class="dropdown-content">
                             <a href="#"></a>
                         </div>
                     </div>
                 </th>
                 <th class="header-inhalt">
-                    <div class="button"><a href="..\Mannschaften\Mannschaften.html"><p>Mannschaften <i class="arrow right"></i></p></a>
+                    <div class="button" onclick="dropdwn()"><p id="headerText">Vereine <i class="arrow right"></i></p>
                         <div class="dropdown-content">
-                            <a href="#">Herren 1</a>
-                            <a href="#">Herren 2</a>
-                            <a href="#">Herren 3</a>
-                        </div>
-                    </div>
-                </th>
-                <th class="header-inhalt">
-                    <div class="button"><p>Jugend <i class="arrow right"></i></p>
-                        <div class="dropdown-content">
-                            <a href="#">U20</a>
-                            <a href="#">U16</a>
-                            <a href="#">U14</a>
-                        </div>
-                    </div>
-                </th>
-                <th class="header-inhalt">
-                    <div class="button"><p>Sponsoren</p>
-                        <div class="dropdown-content">
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </th>
-                <th class="header-inhalt">
-                    <div class="button" onclick="dropdwn()"><p>Vereine <i class="arrow right"></i></p>
-                        <div class="dropdown-content">
-                            <a href="#"></a>
+                            <a href="https://www.sv-sinsheim.de" id="headerText">SV Sinsheim</a>
+                            <a href="https://vsghelmstadt.de/" id="headerText"> VSG Helmstadt</a>
                         </div>
                     </div>
                 </th>
@@ -64,28 +64,28 @@
     <div class="body">
         <div class="content">
             <div class="news" onmouseenter="hoverNews()" onmouseleave="exitNews()">
-                <div id="News1">
+                <div class="News" id="News1">
                     <div id="bgEffekt"></div>
                     <div class="title">
                         SG Herren 2 gewinnt
                         <p class="description">Die zweite Herrenmannschaft der SG Sinsheim/Helmstadt gewinnt 3:1 in ...</p>
                     </div>
                 </div>
-                <div id="News2">
+                <div class="News" id="News2">
                     <div id="bgEffekt"></div>
                     <div class="title">
                         SG gewinnt2
                         <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
                     </div>
                 </div>
-                <div id="News3">
+                <div class="News" id="News3">
                     <div id="bgEffekt"></div>
                     <div class="title">
                         SG gewinnt3
                         <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
                     </div>
                 </div>
-                <div id="News4">
+                <div class="News" id="News4">
                     <div id="bgEffekt"></div>
                     <div class="title">
                         SG gewinnt4
@@ -95,6 +95,13 @@
                 <div class="prev"onclick="prevSlide()">❮</div>
 
                 <div class="next"onclick="nextSlide()">❯</div>
+
+                <div class="Indicators">
+                    <div id="indicator1"></div>
+                    <div id="indicator2"></div>
+                    <div id="indicator3"></div>
+                    <div id="indicator4"></div>
+                </div>
 
             </div>
             <div class="upcomming">

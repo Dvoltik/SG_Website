@@ -3,11 +3,13 @@
     --NormalFont: Moderustic;
 
     /*-----Lightmode farben-----*/
-    --HeaderBackgroundL: gray;
-    --BodyBackgroundL: aqua;
-    --DropdownColorL: blue;
+    --HeaderBackgroundL: rgb(0, 0, 0);
+    --BodyBackgroundL: white;
+    --DropdownColorL: rgba(0, 0, 0, 0.815);
     --HeaderHeight: 10vh;
-    
+    --BodyBackGroundIMG: url(../Bilder/Unbenannt.jpg);
+
+    --NewsRounding: 25px;
 
     --News1Pic: url(../Bilder/TestNews.png);
     --News2Pic: url(../Bilder/TestNews.png);
@@ -19,11 +21,17 @@
 
 body{
     margin:0;
+    background-image: var(--BodyBackGroundIMG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vw;
+    background-attachment: fixed;
 }
 
 /*-----Header-----*/
 
 .header{
+    font-size: 2.5vh;
     top:0;
     z-index:1;
     position: fixed;
@@ -45,6 +53,10 @@ body{
 
 }
 
+a {
+    text-decoration: none;
+}
+
 th.header-inhalt{
     border: 1px solid black;
     width: 10vw;  
@@ -59,10 +71,15 @@ th.header-inhalt{
     justify-content:center;
 }
 
+#headerText{
+    color:#CFB53B;
+}
+
 .dropdown-content{
+    width: 90%;
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: var(--DropdownColorL);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -76,7 +93,7 @@ th.header-inhalt{
   }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    font-size: 3vh;
 }
 
 .arrow {
@@ -115,11 +132,12 @@ th.header-inhalt{
 /*------News------*/
 
 .news{
+    
     z-index: 0;
     align-items: center;
     margin-top: 5vh;
     margin-left: 5vw;
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(255, 255, 255);
     width: 60vw;
     aspect-ratio: 16/9;
 }
@@ -145,6 +163,7 @@ th.header-inhalt{
 }
 
 .news:hover #bgEffekt{
+    border-radius: var(--NewsRounding);
     position:absolute;
     width: 60vw;
     aspect-ratio: 16/9;
@@ -179,26 +198,30 @@ th.header-inhalt{
   .next {
     margin-left: 57vw;
     border-radius: 3px 0 0 3px;
-  }
+}
 
-#News1{
+
+.News{
+    border-radius: var(--NewsRounding);
     width: 60vw;
     aspect-ratio: 16/9;
-    background-image: var(--News1Pic);
     background-position: center;
     background-size: cover;
 }
 
+#News1{  
+    background-image: var(--News1Pic);  
+    display:  block; 
+}
+
 #News2{
-    width: 60vw;
-    aspect-ratio: 16/9;
+    
     background-image: var(--News1Pic);
-    background-position: center;
-    background-size: cover;
     display: none;    
 }
 
 #News3{
+    border-radius: var(--NewsRounding);
     width: 60vw;
     aspect-ratio: 16/9;
     background-image: var(--News1Pic);
@@ -208,11 +231,7 @@ th.header-inhalt{
 }
 
 #News4{
-    width: 60vw;
-    aspect-ratio: 16/9;
     background-image: var(--News1Pic);
-    background-position: center;
-    background-size: cover;
     display: none;
 }
 /*------News------*/
