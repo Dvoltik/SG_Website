@@ -64,7 +64,7 @@ function plusSlides(n){
     slides = document.getElementById('News' + i);
     slides.style.display = "block";
     
-    clearTimer(timerNextSlide);
+    var clearTimer = clearInterval(timerNextSlide);
     startTimer(timerNextSlide);
     return i;
 }

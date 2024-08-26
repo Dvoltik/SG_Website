@@ -8,11 +8,12 @@
         </ul>
     <li>Mannschaften</li>
         <ul>
+            <li>Wann  training/ wer ist trainer/ kontakdaten</li>
             <li>Neuste Bilder</li> [Bilder mit kurzen Texten]
             <li>letztes spiel</li>
                 <ul>
                     <li>Spielbericht</li>
-                    <li>Spielstatistiken</li> [Wer hat gespielt, wie viele punkte gemacht, etc.]
+                    <li>Spielstatistiken</li> [evtl. wenn umsetzbarWer hat gespielt, wie viele punkte gemacht, etc.]
                     <li>Bilder/ Videos</li>
                 </ul>
             <li>Kommende Spiele und anstehende Events</li>
@@ -24,7 +25,7 @@
                     <li>Größe</li>
                     <li>Spielernummer</li>
                     <li>Position</li>
-                    <li>Sprunghöhe/ Schlaghöhe/ Blockhöhe/ Anzahl MVP-Titel(Spielerstats)</li>
+                    <li>(Sprunghöhe/ Schlaghöhe/ Blockhöhe/ Anzahl MVP-Titel(Spielerstats))</li>
                     <li>Warum Volleyball?</li>
                     <li>Warum bei der SG?</li>
                     <li>Wie lange schon bei der SG?</li>

@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="Startseite.css" /> 
-    <script src="Startseite.js"></script> 
-    <script src="../News/News.js"></script>
+    <link rel="stylesheet" type="text/css" href="Mannschaften.css"/> 
 
-    <title>Startseite SG Sinsheim/Helmstadt</title>
+    <title>Mannschaften SG Sinsheim/Helmstadt</title>
     <link rel="icon" type="image/x-icon" href="../Bilder/WebIcon2.0Dick.png">
-
 </head>
 <body>
     <div class="header">
@@ -67,61 +64,23 @@
         </table>
     </div>
     <div class="body">
-        <div class="content">
-            <div class="news" onmouseenter="hoverNews()" onmouseleave="exitNews()">
-                <div class="News" id="News1">
-                    <div id="bgEffekt"></div>
-                    <div class="title">
-                        SG Herren 2 gewinnt
-                        <p class="description">Die zweite Herrenmannschaft der SG Sinsheim/Helmstadt gewinnt 3:1 in ...</p>
-                    </div>
-                </div>
-                <div class="News" id="News2">
-                    <div id="bgEffekt"></div>
-                    <div class="title">
-                        SG gewinnt2
-                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
-                    </div>
-                </div>
-                <div class="News" id="News3">
-                    <div id="bgEffekt"></div>
-                    <div class="title">
-                        SG gewinnt3
-                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
-                    </div>
-                </div>
-                <div class="News" id="News4">
-                    <div id="bgEffekt"></div>
-                    <div class="title">
-                        SG gewinnt4
-                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
-                    </div>
-                </div>
-                <div class="prev"onclick="prevSlide()">❮</div>
-
-                <div class="next"onclick="nextSlide()">❯</div>
-
-                <div class="Indicators">
-                    <div id="indicator1"></div>
-                    <div id="indicator2"></div>
-                    <div id="indicator3"></div>
-                    <div id="indicator4"></div>
-                </div>
-
-            </div>
-            <div class="upcomming">
-                <h1>Kommende Spiele</h1>
-                <div class="eventBox">
-                    <div class="events" id="event1"></div>
-                    <div class="events" id="event2"></div>
-                    <div class="events" id="event3"></div>
-                    <div class="events" id="event4"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-
+        <p class="info">
+            Platzhalter für evtln. kurzen Infotext über das gesamt geschehen/ kurze beschreibung der Mannschafts lage ala SSC Website.
+        </p>
+        <h1 id="mannschaft"> Mannschaften</h1>
+        <table class="mannschaften">
+            <tr>
+                <td class="herren" id="H1" onclick='window.location.assign("Herren1.html")'>Herren 1 (Oberliga)</td>
+                <td class="herren" id="H2" onclick='window.location.assign("Herren2.html")'>Herren 2 (Bezirksliga)</td>
+                <td class="herren" id="H3" onclick='window.location.assign("Herren3.html")'>Herren 3 (Bezirklsklasse)</td>
+            </tr>
+            <tr>
+                <td class="mFoto"><img src=""  alt="Mannschaftsfoto der H1"></td>
+                <td class="mFoto"><img src=""  alt="Mannschaftsfoto der H2"></td>
+                <td class="mFoto"><img src=""  alt="Mannschaftsfoto der H3"></td>
+            </tr>
+        </table>
+        
     </div>
 </body>
 </html>
