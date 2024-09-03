@@ -133,7 +133,6 @@ th.header-inhalt{
 /*------Mannschaften------*/
 #mannschaft{
     margin-top: 15vh;
-    margin-bottom: 15vh;
     font-size: 6vh;
     text-align: center;
 }
@@ -175,6 +174,8 @@ th.header-inhalt{
         font-size: 2vh;
     }
     /*---/Trainingsinfos---*/
+
+
 /*------/Mannschaften------*/
 
 /*-----Footer-----*/

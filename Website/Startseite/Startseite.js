@@ -5,7 +5,7 @@ onload = () => {
 
 let n;
 let i = 1;
-let timeNextSlideS = 10;                        //Sekunden nach denen die nächste Newsslide kommt
+let timeNextSlideS = 5;                        //Sekunden nach denen die nächste Newsslide kommt
 let timeNextSlideMS = timeNextSlideS * 1000;    //Millisekunden nachdenen die nächste Newsslide kommt
 
 let timerNextSlide;
@@ -30,7 +30,7 @@ function exitNews(){
 function startTimer(){
     console.log("startTimer");
     console.log(timeNextSlideMS);
-    timerNextSlide = setTimeout(nextSlide, timeNextSlideMS);
+    timerNextSlide = setInterval(nextSlide, timeNextSlideMS);
     return timerNextSlide;
 }
 

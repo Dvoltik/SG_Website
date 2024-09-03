@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="Herren.css"/>
+    <link rel="stylesheet" type="text/css" href="bilderH1.css"/>
+    <script src="Herren.js"></script>
+
+    <title>Herren 1</title>
+    <link rel="icon" type="image/x-icon" href="../Bilder/WebIcon2.0Dick.png">
+
+</head>
+<body>
+    <div class="header">
+        <table id="headertable">
+            <tr>
+            <th class="header-inhalt" id="logo">
+                <img class="logo" src="..\Bilder\LogoV2.0Dick.png" alt="Vereinslogo SG Sinsheim/Helmstadt">           
+            </th>
+            <th class="header-inhalt" id="SpacerPC">
+                <p>      </p>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><a href="../Startseite/Startseite.html"><p id="headerText">Starteiste</p></a></div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><p id="headerText">Aktuelles</i></p>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><a href="..\Mannschaften\Mannschaften.html"><p id="headerText">Mannschaften <i class="arrow right"></i></p></a>
+                    <div class="dropdown-content">
+                        <a href="#" id="headerText">Herren 1</a>
+                        <a href="#" id="headerText">Herren 2</a>
+                        <a href="#" id="headerText">Herren 3</a>
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><p id="headerText">Jugend <i class="arrow right"></i></p>
+                    <div class="dropdown-content">
+                        <a href="#" id="headerText">U20</a>
+                        <a href="#" id="headerText">U16</a>
+                        <a href="#" id="headerText">U14</a>
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><p id="headerText">Sponsoren</p>
+                    <div class="dropdown-content">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button" onclick="dropdwn()"><p id="headerText">Vereine <i class="arrow right"></i></p>
+                    <div class="dropdown-content">
+                        <a href="https://www.sv-sinsheim.de" id="headerText">SV Sinsheim</a>
+                        <a href="https://vsghelmstadt.de/" id="headerText"> VSG Helmstadt</a>
+                    </div>
+                </div>
+            </th>
+        </table>
+    </div>
+    <!--Hier Header einfügen sobald alle links eingefügt sind-->
+
+    <div class="body">
+    <h1 class="mannschaft"> Herren 1 (Oberliga)</h1>
+
+        <div class="mannschaftsbilder">
+
+            <div class="bilder" id="bild1"></div>
+            <div class="bilder" id="bild2"></div>
+            
+            <div class="arrowContainer">
+                <div class="prev"onclick="prevSlide()">❮</div>
+                <div class="next"onclick="nextSlide()">❯</div>
+            </div>
+        </div>
+        
+        <table class="trainingsInfo">
+            <tr class="trainingstage">
+
+                <th id="wann" rowspan="2">Wann?</th>
+                <th id="trainingTag1">Montag</th>
+                <th id="trainingTag2">Mittwoch</th>
+                <th id="trainingTag3">Donnerstag</th>
+                <th class="spacerTraining"></th>
+                <th class="trainer">Trainer</th>
+            </tr>
+            <tr class="trainingsZeiten">
+                <td id="trainingZeit1">20:00 - 22:00 Uhr</td>
+                <td id="trainingZeit2">20:00 - 22:00 Uhr</td>
+                <td id="trainingZeit3">20:00 - 22:00 Uhr</td>
+                <td class="spacerTraining"></td>
+                <td id="trainername">Rudi Sonnebichler</td>
+            </tr>
+            <tr class="trainingsOrt">
+                <td id="wo">Wo?</td>
+                <td id="trainingOrt1"><a href="https://maps.app.goo.gl/vNNmGFdxrRNwishW7">Schwarzbachhalle Helmstadt-Bargen</a></td>
+                <td id="trainingOrt2"><a href="https://maps.app.goo.gl/yq1ycSCYfvLQyZgr6">Sporthalle Kraichgau-Realschule</a></td>
+                <td id="trainingOrt3"><a href="https://maps.app.goo.gl/yq1ycSCYfvLQyZgr6">Sporthalle Kraichgau-Realschule</a></td>
+                <td class="spacerTraining"></td>
+                <td id="trainerKontakt">Mail des trainers</td>
+            </tr>
+        </table>
+
+        <table class="spieleUpdate">
+            <tr class="updateText">
+                <td>Letztes Spiel</td>
+                <td class="spacerUpdate"></td>
+                <td>Nächstes Spiel</td>
+            </tr>
+            <tr>
+                <td class="updateWindow" id="lezztesSpiel"></td>
+                <td class="spacerUpdate"></td>
+                <td class="updateWindow" id="naechstesSpiel"></td>
+            </tr>
+        </table>
+        
+        <div class="ligaInfos">
+            <h2 id="liga">NVV Oberliga</h2>
+            <table class="ligaTabelle">
+                <tr class="kategorien">
+                    <td class="plazierung">Platzierung</td>
+                    <td class="logo">Logo</td>
+                    <td class="team ">Mannschaft</td>
+                    <td class="spiele">Spiele</td>
+                    <td class="siege">Siege</td>
+                    <td class="sätze">Sätze</td>
+                    <td class="punkte">Punkte</td>
+                </tr>
+                <tr id="Sinsheim/Helmstadt">
+                    <td class="plazierung" id="">1.</td>
+                    <td class="logo" id=""> </td>
+                    <td class="team " id="">SG Sinsheim/Helmstadt</td>
+                    <td class="spiele" id="">3</td>
+                    <td class="siege" id="">2</td>
+                    <td class="sätze" id="">8:4</td>
+                    <td class="punkte" id="">9</td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+                <tr id="">
+                    <td class="plazierung" id=""> </td>
+                    <td class="logo" id=""></td>
+                    <td class="team " id="">  </td>
+                    <td class="spiele" id=""> </td>
+                    <td class="siege" id=""> </td>
+                    <td class="sätze" id=""></td>
+                    <td class="punkte" id=""></td>
+                </tr>
+            </table>
+        </div>
+        <div class="spielervorstellung">
+            <table class="spieler" id="">
+                <tr>
+                    <td rowspan="10" class="bildSpieler">
+                        <img src="../Bilder/Joe.jpg" class="bildSpieler" id="">
+                    </td>
+                    <td class="spielerName" id="">Johannes Dumke:</td>
+                </tr>
+                <tr>
+                    <td class="größe">Körpergröße:</td>
+                    <td class="spielerGröße" id="">195cm</td>
+                </tr>
+                <tr>
+                    <td class="nummer">Trickotnummer:</td>
+                    <td class="spielernummer" id=""></td>
+                </tr>
+                <tr>
+                    <td class="position">Position:</td>
+                    <td class="spielerPosition" id="">Zuspieler</td>
+                </tr>
+                <tr>
+                    <td class="">Warum Volleyball?</td>
+                    <td class="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="">Warum bei uns?</td>
+                    <td class="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="">Wie lange schon bei uns?</td>
+                    <td class="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="" rowspan="2">Social Media:</td>
+                    <td class="" id="">Facebook</td>
+                </tr>
+                <tr>
+                    <td class="" id="">Instagram</td>
+                </tr>
+            </table>
+            <hr class="spielerTrenner">
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>

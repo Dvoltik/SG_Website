@@ -141,21 +141,22 @@ th.header-inhalt{
     aspect-ratio: 16/9;
 }
 
-.title{
+.newsTxt{
     width: 40vw;
     padding-left: 2vh;
-    padding-top: 63vh;
+    padding-top: 55vh;
     color: white;
     position:absolute;
     font-size: 6vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
+
+
 .description{
     display: none;
     padding-left: 2vh;
     color: white;
-    position:absolute;
     font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3vh;
 
@@ -172,11 +173,18 @@ th.header-inhalt{
 }
 
 .news:hover .description{
+    margin: auto;
+    position:relative;
     display: block;
 }
 
-.news:hover .title{
-    padding-top: 50vh;
+.news:hover #title{
+    margin-top: auto;
+    position: relative;
+}
+
+.news:hover .newsTxt{
+    padding-top: 42vh;
 }
 
 .prev, .next {
@@ -220,12 +228,7 @@ th.header-inhalt{
 }
 
 #News3{
-    border-radius: var(--NewsRounding);
-    width: 60vw;
-    aspect-ratio: 16/9;
     background-image: var(--News1Pic);
-    background-position: center;
-    background-size: cover;
     display: none;
 }
 

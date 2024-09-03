@@ -1,0 +1,24 @@
+:root{
+    --Mannschaftsbild1: url("");
+    --Mannschaftsbild2: url("");
+
+    --LetztesSpiel: url("");
+    --NächstesSpiel: url("");
+
+}
+
+#bild1{
+    background-image: var(--Mannschaftsbild1);
+}
+
+#bild2{
+    background-image: var(--Mannschaftsbild2)
+}
+
+#letztesSpiel{
+    background-image: var(--LetztesSpiel);
+}
+
+#naechstesSpiel{
+    background-image: var(--NächstesSpiel);
+}

@@ -1,0 +1,304 @@
+:root{
+    --HeaderFont: Moderustic;
+    --NormalFont: Moderustic;
+    
+    /*-----Lightmode farben-----*/
+    --HeaderBackgroundL: rgb(0, 0, 0);
+    --BodyBackgroundL: white;
+    --DropdownColorL: rgba(0, 0, 0, 0.815);
+    --HeaderHeight: 10vh;
+    --BodyBackGroundIMG: url(../Bilder/Unbenannt.jpg); /*Hier Vereinsbild mit auf dem am besten möglichst viel drauf sind einfügen*/
+    --ButtonColorL: rgb(65, 65, 65);
+    
+        /*FontFarben Lightmode*/
+        --HeaderFontL: #CFB53B;
+        --ContentFontL: black;
+        /*/FontFarben Lightmode*/
+    /*------/Lightmode farben------*/
+    
+    }
+    body{
+        margin:0;
+        background-image: var(--BodyBackGroundIMG);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw 100vw;
+        background-attachment: fixed;
+    }
+    
+    
+    /*------Header------*/
+    .header{
+        font-size: 2.5vh;
+        top:0;
+        z-index:2;
+        position: fixed;
+        display: flex;
+    }
+    
+    .logo{    
+        height:var(--HeaderHeight);
+    }
+    
+    
+    #headertable{
+        background-color: var(--HeaderBackgroundL);
+        flex-flow: column nowrap;
+        height:var(--HeaderHeight);
+        width:100vw;
+        padding-right:5vw;
+        padding-left:5vw
+    
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    th.header-inhalt{
+        border: 1px solid black;
+        width: 10vw;  
+    }
+    
+    #SpacerPC{
+        width:60vw;
+    }
+    
+    .button{
+        display: flex;
+        justify-content:center;
+    }
+    
+    #headerText{
+        color: var(--HeaderFontL);
+    }
+    
+    .dropdown-content{
+        width: 90%;
+        display: none;
+        position: absolute;
+        background-color: var(--DropdownColorL);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    
+    .dropdown-content a:hover {
+        font-size: 3vh;
+    }
+    
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+    
+    .button:hover .arrow{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+    
+    .button:hover .dropdown-content{
+        margin-top: 5vh;
+        width:inherit;
+        display: block;
+    }
+    /*-----/Header-----*/
+    
+    /*------Body------*/
+    .body{
+        margin-top: 50vh;
+        padding-bottom: 5vh;
+        border-radius: 20px 20px 0px 0px;
+        padding-top: 1vh;
+        margin-left: 15vw;
+        width: 70vw;
+        height: 100%;
+        background-color: var(--BodyBackgroundL);
+        color: var(--ContentFontL);
+    }
+    /*------/Body------*/
+    
+/*------Mannschaftsbilder------*/
+.mannschaft{
+    font-size: 6vh;
+    text-align: center;
+}
+
+.mannschaftsbilder{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    aspect-ratio: 16/9;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+.arrowContainer{
+    position:relative;
+    z-index: 2;
+    width: 60vw;
+    margin-top: -38vh;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev, .next {
+    cursor: pointer;
+    padding: 16px;    
+}
+
+.prev{
+    float: left;
+}
+
+.next{
+    float:right;
+}
+
+.bilder{
+    position:relative;
+    z-index: 1;
+    width: 60vw;
+    aspect-ratio: 16/9;
+    border-radius: 25px;
+}
+
+#bild1{
+    display: block; 
+    background-color: blue;
+}
+
+#bild2{
+    display: none;
+    background-color: blueviolet;
+}
+
+/*------/Mannschaftsbilder------*/
+
+/*------TrainingsInfo------*/
+.trainingsInfo{
+    Width:50vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+
+/*------/TrainingsInfo------*/
+
+/*------Spieleupdate------*/
+.updateText{
+    text-align: center;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+}
+
+.spacerUpdate{
+     width: 10vw;
+}
+#textNxtSpiel{
+    margin-top: 0;
+    margin-left: 28vw;
+}
+
+.spieleUpdate{
+    margin-top: 5vh;
+    margin-left: 18vw; 
+    
+}
+
+.updateWindow{
+    width: 13vw;
+    aspect-ratio: 1/1;
+    background-color: gray;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+/*------/Spieleupdate------*/
+
+    /*------Ligatabellte------*/
+    .ligaInfos{
+        text-align: center;
+        margin-left: 10vw;
+        width: 50vw;
+    }
+
+    .ligaTabelle{
+        line-height: 3vh;
+        font-size: 2.5vh;
+        width: 50vw;
+        border-spacing: 0px;
+    }
+
+    .ligaTabelle tr:nth-child(even){
+        background-color: lightgray;
+        border: 1px solid lightgray;
+    }
+
+    .ligaTabelle td{
+        height: 5vh;
+    }
+
+    /* --Falls Tabelle Interagierbar wird hier den Code reaktivieren--
+    .ligaTabelle tr:hover{
+        background-color: gray;
+    }
+    */
+
+    /*-----/Ligatabellte------*/
+
+    /*----Spielervorstellung----*/
+    .spielervorstellung{
+        font-size: 2vh;
+        margin-left: 10vw;
+        
+    }
+
+    .spieler{
+        width: 50vw;
+        border-radius: 25px;
+        background-color: lightgray;
+        padding: 1vh 8vw 1vh 1vw;
+    }
+
+    .spielerName{
+        font-size: 4vh;
+        font-weight: bold;
+    }
+
+    .bildSpieler{
+        margin-right:1vw;
+        border-radius: 25px;   
+        width:20vw;
+        height:auto;
+    }
+    
+    .spielerTrenner{
+        margin-right: 10vw;
+        width: 50vw;
+    }
+    /*----/Spielervorstellung----*/
+
+/*-----Footer-----*/
+.footer{
+    background-color: var(--HeaderBackgroundL);
+    height: 5vh;
+}
+/*-----Footer-----*/
