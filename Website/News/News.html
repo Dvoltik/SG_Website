@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="News.css">
 </head>
 <body>
-    
+    <div class="header">
+        <table id="headertable">
+            <tr>
+            <th class="header-inhalt" id="logo">
+                <img class="logo" src="..\Bilder\LogoV2.0Dick.png" alt="Vereinslogo SG Sinsheim/Helmstadt">           
+            </th>
+            <th class="header-inhalt" id="SpacerPC">
+                <p>      </p>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><a href="../Startseite/Startseite.html"><p id="headerText">Starteiste</p></a></div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><p id="headerText">Aktuelles</i></p>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><a href="..\Mannschaften\Mannschaften.html"><p id="headerText">Mannschaften <i class="arrow right"></i></p></a>
+                    <div class="dropdown-content">
+                        <a href="#" id="headerText">Herren 1</a>
+                        <a href="#" id="headerText">Herren 2</a>
+                        <a href="#" id="headerText">Herren 3</a>
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><p id="headerText">Jugend <i class="arrow right"></i></p>
+                    <div class="dropdown-content">
+                        <a href="#" id="headerText">U20</a>
+                        <a href="#" id="headerText">U16</a>
+                        <a href="#" id="headerText">U14</a>
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button"><p id="headerText">Sponsoren</p>
+                    <div class="dropdown-content">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </th>
+            <th class="header-inhalt">
+                <div class="button" onclick="dropdwn()"><p id="headerText">Vereine <i class="arrow right"></i></p>
+                    <div class="dropdown-content">
+                        <a href="https://www.sv-sinsheim.de" id="headerText">SV Sinsheim</a>
+                        <a href="https://vsghelmstadt.de/" id="headerText"> VSG Helmstadt</a>
+                    </div>
+                </div>
+            </th>
+        </table>
+    </div>
+    <div class="newsBody">
+        <h1 id="news">News</h1>
+        <div class="dateContainer" id="datum">
+            <h2 class="date-lines">06.09.2024</h2>
+            <div class="news" id="">
+                <div class="newsContent">        
+                    <table>
+                        <tr class="row1">
+                            <td rowspan="2"><img src="..//Bilder/NewsPlaceholder.jpeg" alt="Bild der Nachricht" class="newsBild"></td>
+                            <td class="newsHeader"><h2>SG gewinnt gegen Rohrbach 3:2</h2></td>
+                        </tr>
+                        <tr>
+                            <td class="beschreibung">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</td>
+                        </tr>
+                    </table>
+                </div> 
+            </div>
+        </div>
+    </div>
 </body>
 </html>

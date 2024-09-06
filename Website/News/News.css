@@ -1,0 +1,211 @@
+:root{
+    --HeaderFont: Moderustic;
+    --NormalFont: Moderustic;
+    
+    /*-----Lightmode farben-----*/
+    --HeaderBackgroundL: rgb(0, 0, 0);
+    --BodyBackgroundL: white;
+    --DropdownColorL: rgba(0, 0, 0, 0.815);
+    --HeaderHeight: 10vh;
+    --BodyBackGroundIMG: url(../Bilder/Unbenannt.jpg); /*Hier Vereinsbild mit auf dem am besten möglichst viel drauf sind einfügen*/
+    --ButtonColorL: rgb(65, 65, 65);
+    --dateFarbe: gray;
+    
+        /*FontFarben Lightmode*/
+        --HeaderFontL: #CFB53B;
+        --ContentFontL: black;
+        /*/FontFarben Lightmode*/
+    /*------/Lightmode farben------*/
+    
+    }
+    body{
+        margin:0;
+        background-image: var(--BodyBackGroundIMG);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw 100vw;
+        background-attachment: fixed;
+    }
+    
+    
+  
+    /*------Header------*/
+    .header{
+        font-size: 2.5vh;
+        top:0;
+        z-index:2;
+        position: fixed;
+        display: flex;
+    }
+    
+    .logo{    
+        height:var(--HeaderHeight);
+    }
+    
+    
+    #headertable{
+        background-color: var(--HeaderBackgroundL);
+        flex-flow: column nowrap;
+        height:var(--HeaderHeight);
+        width:100vw;
+        padding-right:5vw;
+        padding-left:5vw
+    
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    th.header-inhalt{
+        border: 1px solid black;
+        width: 10vw;  
+    }
+    
+    #SpacerPC{
+        width:60vw;
+    }
+    
+    .button{
+        display: flex;
+        justify-content:center;
+    }
+    
+    #headerText{
+        color: var(--HeaderFontL);
+    }
+    
+    .dropdown-content{
+        width: 90%;
+        display: none;
+        position: absolute;
+        background-color: var(--DropdownColorL);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    
+    .dropdown-content a:hover {
+        font-size: 3vh;
+    }
+    
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+    
+    .button:hover .arrow{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+    
+    .button:hover .dropdown-content{
+        margin-top: 5vh;
+        width:inherit;
+        display: block;
+    }
+    /*-----/Header-----*/
+
+/*------NewsContainer------*/
+#news{
+    font-size: 5vh;
+}
+
+.newsBody{
+    background-color: white;
+    width: 70vw;
+    border-radius: 25px;
+    padding: 1vh 0vh 5vh 0vh;
+    margin-left: 15vw;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+    /*------Datum------*/
+    .date-lines:before{
+        content:"";
+        display: block;
+        height: 2px;
+        width: 30vw;
+        position: absolute;
+        right: 18vw;
+        margin-top: 14px;
+        background: var(--dateFarbe);
+    
+    }
+
+    .date-lines{
+        position: relative;
+        /*  new lines  */
+        margin-left: 20vw;
+        max-width: 30vw;
+        text-align: center;
+        color: var(--dateFarbe);
+    }
+  
+    .date-lines:after{
+        content:"";
+        height: 2px;
+        width: 30vw;
+        bottom: 12px;
+        background: var(--dateFarbe);
+        display: block;
+        position: absolute;
+        left: 18vw;
+    }
+    /*-----/Datum------*/
+
+    /*------News------*/
+    .news{
+        text-align: left;
+        border-radius: 25px;
+        border: 2px solid gray;
+        margin-left:5vw;
+        width: 60vw;
+        height: 100%;
+    }
+
+    /*------NewsContent------*/
+        .row1{
+            line-height: 0vh;
+        }
+        .newsContent{
+            padding: 2vh;
+        }
+
+        .newsBild{
+            position: relative;
+            width:15vw;
+            height:auto;
+            border-radius: 25px;
+        }
+
+        .newsHeader{
+            
+            font-size: 3vh;
+            position: relative;
+            padding-left: 1vw;
+        }
+
+        .beschreibung{  
+            top: -10vh; 
+            padding-left: 1vw;
+            font-size: 2vh;
+        }
+
+    /*-----/NewsContent------*/
+
+    /*-----/News------*/
+
+/*-----/NewsContainer------*/
