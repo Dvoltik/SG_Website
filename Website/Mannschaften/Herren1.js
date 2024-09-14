@@ -33,20 +33,20 @@ const tabelle = [
 ]
 
 const spieler = [
-    {"vorname":"Johannes", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Mika", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Michael", "nachname":"Rossel", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Jonas", "nachname":"Paar", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Tom", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Dominik", "nachname":"Wolters", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Alex", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Pascal", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Tobias", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Finnian", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Bernd", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Julian", "nachname":"Paar", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Benjamin", "nachname":"Himmel", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "},
-    {"vorname":"Luki", "nachname":"Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " ", "facebook": " "}
+    {"name":"Johannes Dumke",  "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": "Test", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " "},
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": ""},
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " }
 ];
 
 
@@ -98,5 +98,118 @@ document.addEventListener("DOMContentLoaded", function(){
         siege.innerHTML = tabelle[i].siege;
         sätze.innerHTML = tabelle[i].sätze;
         punkte.innerHTML = tabelle[i].punkte;
+    }
+
+    console.log(spieler.length);
+
+    for( var i = 0; i < spieler.length; i++){
+        const spielerVorstellung = document.getElementById("spielervorstellung");
+
+        const table = document.createElement("table");
+        table.setAttribute("class", "spieler");
+        table.setAttribute("id", spieler[i].vorname);
+        spielerVorstellung.appendChild(table);
+
+            const row1 = document.createElement("tr");
+            table.appendChild(row1);
+
+                const td11 = document.createElement("td");
+                td11.setAttribute("rowspan", "10");
+                row1.appendChild(td11);
+
+                    const imgspieler = document.createElement("img");
+                    imgspieler.setAttribute("src", spieler[i].bild);
+                    imgspieler.setAttribute("class", "bildSpieler");
+                    td11.appendChild(imgspieler);
+
+
+                const td12 = document.createElement("td");
+                td12.setAttribute("class", "spielerName");
+                td12.innerHTML = spieler[i].name + ":";
+                row1.appendChild(td12);
+
+            const row2 = document.createElement("tr");
+            table.appendChild(row2);
+
+                const td21 = document.createElement("td");
+                td21.setAttribute("class", "größe");
+                    td21.innerHTML = "Körpergröße:";
+                row2.appendChild(td21);
+
+                const td22 = document.createElement("td");
+                td22.setAttribute("class", "spielerGröße");
+                    td22.innerHTML = spieler[i].körpergröße;
+                row2.appendChild(td22);
+
+            const row3 = document.createElement("tr");
+            table.appendChild(row3);
+
+                const td31 = document.createElement("td");
+                td31.setAttribute("class", "nummer");
+                    td31.innerHTML = "Trickotnummer:";
+                row3.appendChild(td31);
+
+                const td32 = document.createElement("td");
+                td32.setAttribute("class", "spielernummer");
+                    td32.innerHTML = spieler[i].spielernummer;
+                row3.appendChild(td32);
+
+            const row4 = document.createElement("tr");
+            table.appendChild(row4);
+
+                const td41 = document.createElement("td");
+                td41.setAttribute("class", "position");
+                    td41.innerHTML = "Position:";
+                row4.appendChild(td41);
+
+                const td42 = document.createElement("td");
+                td42.setAttribute("class", "spielerPosition");
+                    td42.innerHTML = spieler[i].position;
+                row4.appendChild(td42);
+
+            const row5 = document.createElement("tr");
+            table.appendChild(row5);
+
+                const td51 = document.createElement("td");
+                    td51.innerHTML = "Warum Volleyball?";
+                row5.appendChild(td51);
+
+                const td52 = document.createElement("td");
+                    td52.innerHTML = spieler[i].warumVBall;
+                row5.appendChild(td52);
+
+            const row6 = document.createElement("tr");
+            table.appendChild(row6);
+                
+                const td61 = document.createElement("td");
+                    td61.innerHTML = "Warum bei der SG?";
+                row6.appendChild(td61);
+
+                const td62 = document.createElement("td");
+                    td62.innerHTML = spieler[i].warumSG;
+                row6.appendChild(td62);
+
+            const row7 = document.createElement("tr");
+            table.appendChild(row7);
+
+                const td71 = document.createElement("td");
+                    td71.innerHTML = "Wie lange schon bei der SG?";
+                row7.appendChild(td71);
+
+                const td72 = document.createElement("td");
+                    td72.innerHTML = spieler[i].wieLangeSG;
+                row7.appendChild(td72);
+
+            const row8 = document.createElement("tr");
+            table.appendChild(row8);
+
+                const td81 = document.createElement("td");
+                    td81.innerHTML = "Instagram:";
+                row8.appendChild(td81);
+
+                const td82 = document.createElement("td");
+                    td82.innerHTML = spieler[i].insta;
+                row8.appendChild(td82);
+    
     }
 });
