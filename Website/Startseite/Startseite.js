@@ -4,8 +4,8 @@ onload = () => {
 
 
 let n;
-let i = 1;
-let timeNextSlideS = 5;                        //Sekunden nach denen die nächste Newsslide kommt
+let i = 0;
+let timeNextSlideS = 10;                        //Sekunden nach denen die nächste Newsslide kommt
 let timeNextSlideMS = timeNextSlideS * 1000;    //Millisekunden nachdenen die nächste Newsslide kommt
 
 let timerNextSlide;
@@ -70,12 +70,14 @@ function plusSlides(n){
 }
 
 function checkSlide(){
-    if(i < 1){
-        i = 4;
-    } else if (i > 4){
-        i = 1;
+    if(i < 0){
+        i = 3;
+    } else if (i > 3){
+        i = 0;
     }
     return i;
 }
+
+
 
 

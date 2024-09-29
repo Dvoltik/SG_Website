@@ -30,7 +30,7 @@ body{
 /*-----Header-----*/
 
 .header{
-    font-size: 2.5vh;
+    font-size: 2vh;
     top:0;
     z-index:1;
     position: fixed;
@@ -144,7 +144,7 @@ th.header-inhalt{
 .newsTxt{
     width: 40vw;
     padding-left: 2vh;
-    padding-top: 55vh;
+    padding-top: 52vh;
     color: white;
     position:absolute;
     font-size: 6vh;
@@ -216,43 +216,41 @@ th.header-inhalt{
     background-size: cover;
 }
 
-#News1{  
-    background-image: var(--News1Pic);  
+#News0{  
+    
     display:  block; 
+}
+
+#News1{
+    
+    display: none;    
 }
 
 #News2{
     
-    background-image: var(--News1Pic);
-    display: none;    
-}
-
-#News3{
-    background-image: var(--News1Pic);
     display: none;
 }
 
-#News4{
-    background-image: var(--News1Pic);
+#News3{
+    
     display: none;
 }
 /*------News------*/
 
 
-.upcomming{
+.spielÜbersicht{
     padding-top: 5vh;
     padding-bottom: 5vh;
     text-align: center;
 }
 
-.eventBox{
-    
+.spielÜbersichtContainer{
     padding-left: 10vw;
     padding-right: 10vw;
     display: flex;
     justify-content: space-between;
 }
-.events{
+.spielÜbersichtBilder{
     height: 23vh;
     aspect-ratio: 1/1; 
     background-color: gray;

@@ -139,7 +139,7 @@
         height: 2px;
         width: 30vw;
         position: absolute;
-        right: 18vw;
+        right: 19vw;
         margin-top: 14px;
         background: var(--dateFarbe);
     
@@ -147,6 +147,7 @@
 
     .date-lines{
         position: relative;
+        
         /*  new lines  */
         margin-left: 20vw;
         max-width: 30vw;
@@ -162,7 +163,7 @@
         background: var(--dateFarbe);
         display: block;
         position: absolute;
-        left: 18vw;
+        left: 19vw;
     }
     /*-----/Datum------*/
 
@@ -191,9 +192,8 @@
             border-radius: 25px;
         }
 
-        .newsHeader{
-            
-            font-size: 3vh;
+        .newsHeader{           
+            font-size: 2.5vh;
             position: relative;
             padding-left: 1vw;
         }

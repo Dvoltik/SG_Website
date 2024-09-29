@@ -6,7 +6,8 @@
 
     <link rel="stylesheet" type="text/css" href="Startseite.css" /> 
     <script src="Startseite.js"></script> 
-    <script src="../News/News.js"></script>
+
+    <script type="module" src="../Startseite/UpdateStartseite.js"></script> 
 
     <title>Startseite SG Sinsheim/Helmstadt</title>
     <link rel="icon" type="image/x-icon" href="../Bilder/WebIcon2.0Dick.png">
@@ -69,53 +70,55 @@
     <div class="body">
         <div class="content">
             <div class="news" onmouseenter="hoverNews()" onmouseleave="exitNews()">
+                <div class="News" id="News0">
+                    <div id="bgEffekt"></div>
+                    <div class="newsTxt">
+                        <p id="title0">SG Herren 2 gewinnt</p>
+                        <p class="description" id="desrciption0">Die zweite Herrenmannschaft der SG Sinsheim/Helmstadt gewinnt 3:1 in ...</p>
+                    </div>
+                </div>
                 <div class="News" id="News1">
                     <div id="bgEffekt"></div>
                     <div class="newsTxt">
-                        <p id="title">SG Herren 2 gewinnt</p>
-                        <p class="description">Die zweite Herrenmannschaft der SG Sinsheim/Helmstadt gewinnt 3:1 in ...</p>
+                        <p id="title1">SG gewinnt2</p>
+                        <p class="description" id="desrciption1">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg die frage ist jetzt nur wie sich das ding verhält wenn der text mal n ticken länger wird weil sich jemand nicht kurz fassen kann, sollte zwar eigentlich nicht passieren aber man weiß ja nie</p>
                     </div>
                 </div>
                 <div class="News" id="News2">
                     <div id="bgEffekt"></div>
                     <div class="newsTxt">
-                        <p id="title">SG gewinnt2</p>
-                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg die frage ist jetzt nur wie sich das ding verhält wenn der text mal n ticken länger wird weil sich jemand nicht kurz fassen kann, sollte zwar eigentlich nicht passieren aber man weiß ja nie</p>
+                        <p id="title2">SG gewinnt3</p>
+                        <p class="description" id="desrciption2">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
                     </div>
                 </div>
                 <div class="News" id="News3">
                     <div id="bgEffekt"></div>
                     <div class="newsTxt">
-                        <p id="title">SG gewinnt3</p>
-                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
-                    </div>
-                </div>
-                <div class="News" id="News4">
-                    <div id="bgEffekt"></div>
-                    <div class="newsTxt">
-                        <p id="title">SG gewinnt4</p>
-                        <p class="description">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
+                        <p id="title3">SG gewinnt4</p>
+                        <p class="description" id="desrciption3">Die SG Sinsheim/Helmstadt belegt den Xten Platz auf dem Vorbereitungsturnier in Heidelberg</p>
                     </div>
                 </div>
                 <div class="prev"onclick="prevSlide()">❮</div>
 
                 <div class="next"onclick="nextSlide()">❯</div>
 
-                <div class="Indicators">
-                    <div id="indicator1"></div>
-                    <div id="indicator2"></div>
-                    <div id="indicator3"></div>
-                    <div id="indicator4"></div>
-                </div>
-
             </div>
-            <div class="upcomming">
+            <div class="spielÜbersicht">
                 <h1>Kommende Spiele</h1>
-                <div class="eventBox">
-                    <div class="events" id="event1"></div>
-                    <div class="events" id="event2"></div>
-                    <div class="events" id="event3"></div>
-                    <div class="events" id="event4"></div>
+                <div class="spielÜbersichtContainer">
+                    <div class="spielÜbersichtBilder" id="ausstehend1"></div>
+                    <div class="spielÜbersichtBilder" id="ausstehend2"></div>
+                    <div class="spielÜbersichtBilder" id="ausstehend3"></div>
+                    <div class="spielÜbersichtBilder" id="ausstehend4"></div>
+                </div>
+            </div>
+            <div class="spielÜbersicht">
+                <h1>Neuste Ergebnisse</h1>
+                <div class="spielÜbersichtContainer">
+                    <div class="spielÜbersichtBilder" id="ergebnisse1"></div>
+                    <div class="spielÜbersichtBilder" id="ergebnisse2"></div>
+                    <div class="spielÜbersichtBilder" id="ergebnisse3"></div>
+                    <div class="spielÜbersichtBilder" id="ergebnisse4"></div>
                 </div>
             </div>
         </div>
