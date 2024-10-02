@@ -33,20 +33,27 @@ const tabelle = [
 ]
 
 const spieler = [
-    {"name":"Johannes Dumke",  "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": "Test", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " "},
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": ""},
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
-    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " }
+    {"name":"Jonas Paar",  "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "194", "spielernummer": "1", "position": "Mittelblocker", "warumVBall": "Test", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " "},
+    {"name":"Julian Paar", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "176", "spielernummer": "2", "position": "Libero", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": ""},
+    {"name":"Lukas Hermann", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "191", "spielernummer": "3", "position": "Diagonal", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Tobias Bechtel", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "178", "spielernummer": "4", "position": "Außenangriff", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Finnian Ohr", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Außenangriff", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Falko Böhme", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "200", "spielernummer": "6", "position": "Universal", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Pascal Walter", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "7", "position": "Außenangriff", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Dominik Hager", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "178", "spielernummer": "8", "position": "Libero", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Michael Rossel", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "193", "spielernummer": "9", "position": "Mittelblocker", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Johannes Dumke", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "191", "spielernummer": "11", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Janik Richter", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "193", "spielernummer": "12", "position": "Universal", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Alexander Petker", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "915", "spielernummer": "13", "position": "Mittelblocker", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Dominik Wolters", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "202", "spielernummer": "15", "position": "Mitelblocker", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },    {"name":"Dominik Wolters", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "185", "spielernummer": "5", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Bernd Neuffer", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "184", "spielernummer": "16", "position": "Libero", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Benjamin Himmel", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "194", "spielernummer": "17", "position": "Diagonal", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Mika Bialas", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "182", "spielernummer": "18", "position": "Zuspieler", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Noah Horn", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "182", "spielernummer": "19", "position": "Außenangriff", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Tom Hehr", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "193", "spielernummer": "21", "position": "Mittelblocker", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Nadine Himmelhan", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "-", "spielernummer": "CT", "position": "Co-Trainerin", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Stefan Molnár", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "-", "spielernummer": "CT", "position": "Co-Trainer", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " },
+    {"name":"Rudi Sonnenbichler", "bild": "../Bilder/H1/JohannesDumke", "körpergröße": "-", "spielernummer": "T", "position": "Coach", "warumVBall": " ", "warumSG": " ", "wieLangeSG": "", "tiktok": " ", "insta": " " }
 ];
 
 
